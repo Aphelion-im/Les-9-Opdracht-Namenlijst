@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "8e77c513-2dbc-4b47-9714-225211e1a731",
+		"name": "Les 9 - Opdracht Namenlijst",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24308684"
+	},
+	"item": [
+		{
+			"name": "Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/hello",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/showName",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"showName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add name 1 variabele",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/addName?name=Andre",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addName"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Andre"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add names ArrayList",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/addNames?name=Greet",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addNames"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Michael",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "Greet"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show names",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/showNames",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"showNames"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "André",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show names version 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/showNames2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"showNames2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "André",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reversed name - Normal variable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/reversedName",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"reversedName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reversed name - ArrayList reversed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/reversedName2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"reversedName2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addName No duplicates",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/addNameNoDuplicates?name=André",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addNameNoDuplicates"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "André"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
